@@ -1,0 +1,76 @@
+.navbarWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+.navbarBrand {
+  color: #fff;
+  font-family: "Manrope-ExtraBold";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 75px; /* 300% */
+  letter-spacing: -1px;
+  text-transform: capitalize;
+}
+.navbarItems {
+  display: flex;
+  align-items: center;
+}
+.navbarItem {
+  padding: 5px 10px;
+}
+.navbarLink {
+  color: #fff;
+  font-family: "Manrope-Light";
+  font-size: 19.726px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15.5%;
+  text-decoration: none;
+}
+.navbarBtn {
+  width: 94px;
+  height: 40px;
+  border-radius: 6px;
+  background: #d34141;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+.navbarBtnMobile {
+  width: 94px;
+  height: 40px;
+  border-radius: 6px;
+  background: #d34141;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 560px) {
+  .navbarWrap {
+    padding: 0;
+  }
+  .navbarBtnMobile {
+    display: flex;
+  }
+  .navbarBtn {
+    display: none;
+  }
+}

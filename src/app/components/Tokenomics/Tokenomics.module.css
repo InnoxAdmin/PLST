@@ -1,0 +1,46 @@
+.tokenomicsSection {
+  width: 100%;
+  min-height: 1498px;
+  padding: 50px 5%;
+  background: linear-gradient(
+    180deg,
+    rgba(1, 117, 201, 0.08) 30.28%,
+    rgba(1, 117, 201, 0) 94.62%
+  );
+}
+.tokenomicsSectionTitle {
+  width: 159px;
+  height: 37px;
+  border-radius: 17px;
+  background: rgba(211, 65, 65, 0.33);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  color: rgba(211, 65, 65, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.tokenomicsSectionHeading {
+  margin: 20px auto;
+  font-size: 48px;
+  font-family: "Manrope-Bold";
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.tokenomicsSectionBody {
+  width: 100%;
+  min-height: 500px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tokenomicsSectionChartImage {
+  width: 98%;
+  height: 500px;
+  max-width: 1200px;
+}

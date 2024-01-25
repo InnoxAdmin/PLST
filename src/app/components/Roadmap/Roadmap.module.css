@@ -1,0 +1,136 @@
+.roadmapSectionWrap {
+  width: 100%;
+  min-height: 1100px;
+  padding: 50px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(1, 117, 201, 0.08) 30.28%,
+    rgba(1, 117, 201, 0) 94.62%
+  );
+}
+.roadmapSectionTitle {
+  width: 120px;
+  height: 37px;
+  border-radius: 17px;
+  background: rgba(57, 206, 243, 0.33);
+  color: #39cef3;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.roadmapSectionHeading {
+  margin: 20px 0;
+  color: #000;
+  text-align: center;
+  font-family: "Manrope-Bold";
+  font-size: 48px;
+  font-style: normal;
+  line-height: 100.114px;
+}
+.roadmapSectionContent {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rmsContentLeft {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  min-width: 300px;
+}
+.rmsContentRight {
+  flex: 1;
+  padding: 20px 0;
+  min-width: 300px;
+}
+.rmsContentLeftImg {
+  max-width: 95%;
+}
+.rmscRightSteps {
+  width: 100%;
+  max-width: 550px;
+}
+.rmscRightStep {
+  display: flex;
+  min-height: 100px;
+}
+.rmscRightStepLeft {
+  padding: 20px;
+  color: #667085;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  min-width: 100px;
+}
+.rmscRightStepRight {
+  padding: 20px;
+  border-left: 2px solid #e4e7ec;
+}
+.rmscRightStepRightHeading {
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  width: 100%;
+}
+.rmscRightStepRightDescription {
+  max-width: 329px;
+  width: 100%;
+  color: #667085;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.rmscRightStepActive .rmscRightStepRight {
+  border-color: #ff4906;
+}
+@media (max-width: 1300px) {
+  .roadmapSectionWrap {
+    min-height: fit-content;
+    margin-top: 380px;
+  }
+
+  .roadmapSectionContent {
+    flex-direction: column;
+  }
+  .rmsContentLeft {
+    align-items: center;
+    height: fit-content;
+    flex: 0;
+  }
+  .rmsContentRight {
+    height: fit-content;
+    flex: 0;
+  }
+}
+@media (max-width: 450px) {
+  .rmscRightStep {
+    min-width: 90%;
+    flex-direction: column;
+  }
+  .rmscRightStepLeft {
+    padding: 5px;
+  }
+  .rmscRightStepRight {
+    padding: 5px;
+    border-left: none;
+  }
+  .rmscRightStepRightHeading {
+    width: 100%;
+  }
+  .rmscRightStepRightDescription {
+    width: 100%;
+  }
+}
