@@ -6,7 +6,8 @@ const Hero = () => {
     <div className={styles.headerWrap} id="home-hero-section">
       <div className={styles.headerContent}>
         <Navbar />
-        <div className={styles.headerInnerContent}>
+        <div className={styles.headerInnerContent} >
+          
           <div className={styles.headerInnerContentheading}>
             Digital Solidarity:{" "}
           </div>
