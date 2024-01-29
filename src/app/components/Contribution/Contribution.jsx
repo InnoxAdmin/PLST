@@ -17,7 +17,7 @@ const Contribution = () => {
       </div>
       <div className={style.contributionSectionContent}>
         <div className={style.contributionSecContentLeft}>
-          <div className={style.contributionSecContentLeftHeader}>
+          {/* <div className={style.contributionSecContentLeftHeader}>
             <div className={style.contributionTypeItemsleft}>
               <div className={style.contributionTypeItem}>
                 <div className={style.contributionTypeItemLeft}>
@@ -74,7 +74,7 @@ const Contribution = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className={style.contributionSecContentLeftDescription}>
             In response to the ongoing challenges faced by our brothers and
             sisters, we believe that even the smallest contribution from the

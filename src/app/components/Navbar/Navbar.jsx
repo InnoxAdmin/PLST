@@ -24,6 +24,12 @@ const Navbar = () => {
             Roadmap
           </a>
         </div>
+        <div className={styles.navbarItem}>
+          {" "}
+          <a href="#" className={styles.navbarLink}>
+            Whitepaper
+          </a>
+        </div>
       </div>
       <button className={styles.navbarBtn}>Support</button>
     </div>

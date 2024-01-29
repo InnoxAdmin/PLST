@@ -49,6 +49,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 50px;
 }
 .contributionSecContentRight {
   flex: 1;
@@ -139,5 +140,8 @@
   }
   .contributionSecContentLeftDescription {
     line-height: 25px;
+  }
+  .contributionSecContentLeft {
+    max-height: fit-content;
   }
 }

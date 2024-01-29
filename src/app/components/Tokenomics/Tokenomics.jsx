@@ -1,6 +1,7 @@
 import Image from "next/image";
 import style from "./Tokenomics.module.css";
 import Chart from "../../assets/images/chart.svg";
+import Palestine from "../../assets/images/freepalestine.png";
 
 const Tokenomics = () => {
   return (
@@ -12,6 +13,11 @@ const Tokenomics = () => {
           src={Chart}
           alt=""
           className={style.tokenomicsSectionChartImage}
+        />
+        <Image
+          src={Palestine}
+          alt=""
+          className={style.tokenomicsSectionFreePalestineImage}
         />
       </div>
     </div>

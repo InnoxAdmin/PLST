@@ -18,6 +18,7 @@
 .navbarItems {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .navbarItem {
   padding: 5px 10px;
@@ -72,5 +73,11 @@
   }
   .navbarBtn {
     display: none;
+  }
+  .navbarItem {
+    padding: 5px 7px;
+  }
+  .navbarLink {
+    font-size: 12px;
   }
 }

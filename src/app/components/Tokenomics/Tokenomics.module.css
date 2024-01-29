@@ -38,9 +38,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .tokenomicsSectionChartImage {
   width: 98%;
-  height: 500px;
   max-width: 1200px;
+}
+.tokenomicsSectionFreePalestineImage {
+  margin-top: 250px;
+  max-width: 90%;
+  object-fit: contain;
+}
+@media (max-width: 500px) {
+  .tokenomicsSection {
+    min-height: 400px;
+  }
+  .tokenomicsSectionBody {
+    min-height: 300px;
+  }
+  .tokenomicsSectionChartImage {
+    max-height: 200px;
+  }
+  .tokenomicsSectionFreePalestineImage {
+    margin-top: 150px;
+  }
 }
