@@ -31,6 +31,24 @@
   letter-spacing: 0em;
   text-align: center;
 }
+
+.twitterFollowSection {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.twitterLogo {
+  display: block;
+  margin: 0 auto; /* This centers the image */
+}
+
+.followText {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #000; /* Adjust the color as needed */
+}
+
+
 .tokenomicsSectionBody {
   width: 100%;
   min-height: 500px;

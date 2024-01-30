@@ -5,13 +5,27 @@ import ShelterImage from "../../assets/images/shelter.svg";
 import WaterBottleImage from "../../assets/images/water.svg";
 import RightImage from "../../assets/images/contribright.png";
 import RightImageOverlay from "../../assets/images/contribrightoverlay.png";
+import TwitterLogo from '../../assets/images/xlogo.png'; // Import the Twitter logo
+
 const Contribution = () => {
   return (
     <div
       className={style.contributionSectionWrap}
       id="home-contribution-section"
     >
-      <div className={style.contributionSectionTitle}>Contribution</div>
+       {/* Twitter Follow Section */}
+       <div className={style.twitterFollowSection}>
+        <a href="https://twitter.com/PALICOINS" target="_blank" rel="noopener noreferrer">
+          <Image
+            src={TwitterLogo}
+            alt="Follow us on Twitter"
+            width={80}   // Adjust size as needed
+            height={80}  // Adjust size as needed
+          />
+        </a>
+        <p className={style.followText}>Follow Us on Twitter</p>
+      </div>
+
       <div className={style.contributionSectionHeading}>
         Join the $PALI movement
       </div>

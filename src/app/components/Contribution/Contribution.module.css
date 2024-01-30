@@ -12,6 +12,21 @@
   flex-direction: column;
   align-items: center;
 }
+.twitterFollowSection {
+  text-align: center;
+}
+
+.twitterLogo {
+  display: block;
+  margin: 0 auto; /* This centers the image */
+}
+
+.followText {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #000; /* Adjust the color as needed */
+}
+
 .contributionSectionTitle {
   width: 151px;
   height: 37px;
