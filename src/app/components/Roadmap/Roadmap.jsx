@@ -65,7 +65,7 @@ const Roadmap = () => {
               <div className={style.rmscRightStepLeft}>Step 4</div>
               <div className={style.rmscRightStepRight}>
                 <div className={style.rmscRightStepRightHeading}>
-                  Supoort
+                  Support
                 </div>
                 <div className={style.rmscRightStepRightDescription}>
                 Showing support and aid for Palestinian civilians affected by the ongoing occupation, providing a financial system to civilians in the ongoing war, sending out aid, donations, medical supplies, water, food, and shelter. Providing community that stands with Palestine 🇵🇸.
