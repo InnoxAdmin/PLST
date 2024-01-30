@@ -75,22 +75,21 @@
   font-style: normal;
   font-weight: 200;
   line-height: 30px;
-  text-transform: capitalize;
   padding: 20px 0;
   max-width: 700px;
 }
 
 .headerInnerContentbtn {
   max-width: 95%;
-  width: 357px;
+  width: 377px;
   height: 63.677px;
   border-radius: 15px;
   background: #d34141;
   color: #fff;
   text-align: center;
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 41.535px;
   text-transform: capitalize;
   display: flex;

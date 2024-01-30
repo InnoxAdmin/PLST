@@ -13,7 +13,7 @@ const Contribution = () => {
     >
       <div className={style.contributionSectionTitle}>Contribution</div>
       <div className={style.contributionSectionHeading}>
-        $PALI CONTRIBUTION SO FAR
+        Join the $PALI movement
       </div>
       <div className={style.contributionSectionContent}>
         <div className={style.contributionSecContentLeft}>
@@ -76,14 +76,7 @@ const Contribution = () => {
             </div>
           </div> */}
           <div className={style.contributionSecContentLeftDescription}>
-            In response to the ongoing challenges faced by our brothers and
-            sisters, we believe that even the smallest contribution from the
-            cryptocurrency community can make a significant impact. With a
-            commitment to digital solidarity, PLSTN channels funds directly to
-            initiatives that aid Palestinian relief efforts, fostering hope and
-            rebuilding lives. Join us in transforming concern into meaningful
-            change – together, our crypto contributions can make a world of
-            difference for Palestine
+          Together, Our Palestinian Crypto Community Can Make A Difference For Palestine 🇵🇸 #Freepalestine
           </div>
         </div>
         <div className={style.contributionSecContentRight}>

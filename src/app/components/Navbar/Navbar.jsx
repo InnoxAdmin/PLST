@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
         <div className={styles.navbarItem}>
           {" "}
-          <a href="#" className={styles.navbarLink}>
+          <a href="https://docsend.com/view/7yw22zt7wktjgzng" className={styles.navbarLink}>
             Whitepaper
           </a>
         </div>
