@@ -3,6 +3,8 @@ import Hero from "./components/Hero/Hero";
 import Roadmap from "./components/Roadmap/Roadmap";
 import Tokenomics from "./components/Tokenomics/Tokenomics";
 import styles from "./page.module.css";
+import { Analytics } from '@vercel/analytics/react';
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <Contribution />
       <Roadmap />
       <Tokenomics />
+      <Analytics />
     </main>
   );
 }
