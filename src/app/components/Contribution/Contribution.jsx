@@ -76,7 +76,9 @@ const Contribution = () => {
             </div>
           </div> */}
           <div className={style.contributionSecContentLeftDescription}>
-          Together, Our Palestinian Crypto Community Can Make A Difference For Palestine 🇵🇸 #Freepalestine
+          In response to the ongoing challenges faced by our brothers and sisters during the Israeli occupation, we believe in fostering a cryptocurrency community that can make a significant impact. With a commitment to digital solidarity, and access to banking for the Palestinian people, $PALI helps drive aid to impacted families, community, and support for the Palestinian people. By fostering hope and rebuilding lives, please join us in transforming concern into meaningful change.
+
+Together, our Palestinian crypto community can make a difference for Palestine 🇵🇸 #FreePalestine
           </div>
         </div>
         <div className={style.contributionSecContentRight}>

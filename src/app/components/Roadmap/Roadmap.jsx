@@ -32,8 +32,8 @@ const Roadmap = () => {
                   Planning & Implementation of $PALI coin{" "}
                 </div>
                 <div className={style.rmscRightStepRightDescription}>
-                  Setting up project’s mission, vision, goals and project
-                  outline. Including website adn token development
+                Setting up our project’s mission, vision, goals and outline. Including website and token development for the people of Palestine.
+
                 </div>
               </div>
             </div>
@@ -50,8 +50,8 @@ const Roadmap = () => {
                   Awareness Creation
                 </div>
                 <div className={style.rmscRightStepRightDescription}>
-                  Community building process and initiating marketing efforts to
-                  bring awareness and support to the project
+                  Building a community and initiatives around efforts to bring awareness, aid, facilitate banking assistance, and support of the Palestinian civilians affected by the ongoing genocide. 
+
                 </div>
               </div>
             </div>
@@ -62,28 +62,13 @@ const Roadmap = () => {
               onMouseEnter={() => setActiveStep(3)}
             >
               {" "}
-              <div className={style.rmscRightStepLeft}>Step 3</div>
-              <div className={style.rmscRightStepRight}>
-                <div className={style.rmscRightStepRightHeading}>
-                  Planning Donations and Logistics with Partners
-                </div>
-                <div className={style.rmscRightStepRightDescription}></div>
-              </div>
-            </div>
-            <div
-              className={`${style.rmscRightStep} ${
-                activeStep === 4 ? style.rmscRightStepActive : ""
-              }`}
-              onMouseEnter={() => setActiveStep(4)}
-            >
-              {" "}
               <div className={style.rmscRightStepLeft}>Step 4</div>
               <div className={style.rmscRightStepRight}>
                 <div className={style.rmscRightStepRightHeading}>
-                  Sending out donations to set partners
+                  Supoort
                 </div>
                 <div className={style.rmscRightStepRightDescription}>
-                  Sending medical supplies, water, food and shelter.
+                Showing support and aid for Palestinian civilians affected by the ongoing occupation, providing a financial system to civilians in the ongoing war, sending out aid, donations, medical supplies, water, food, and shelter. Providing community that stands with Palestine 🇵🇸.
                 </div>
               </div>
             </div>
