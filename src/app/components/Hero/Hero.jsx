@@ -17,7 +17,7 @@ const Hero = () => {
           <div className={styles.headerInnerContentdesc}>
           THE PALICOIN ($PALI) IS A DIGITAL ASSET INITIATIVE DEDICATED 
           TO SHOWING SUPPORT, PROVIDING RELIEF, BANKING, AND AID FOR 
-          THE PALESTINIAN COMMUNITY
+          THE PALESTINIAN CIVILIAN COMMUNITY
 
 
           </div>

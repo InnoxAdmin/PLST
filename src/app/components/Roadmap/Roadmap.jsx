@@ -62,7 +62,7 @@ const Roadmap = () => {
               onMouseEnter={() => setActiveStep(3)}
             >
               {" "}
-              <div className={style.rmscRightStepLeft}>Step 4</div>
+              <div className={style.rmscRightStepLeft}>Step 3</div>
               <div className={style.rmscRightStepRight}>
                 <div className={style.rmscRightStepRightHeading}>
                   Support
